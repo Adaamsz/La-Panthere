@@ -548,7 +548,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -829,13 +828,13 @@ h4 {
     color: #000000!important;
 }
 .btn-atomic-tangerine {
-    background: #ffffff;
-    color: #ff8600!important;
+    background: #ff8600;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #ff8600!important;
-    color: #FFFFFF!important;
+    background: #ffffff!important;
+    color: #ff9d00!important;
 }
 
 .ltc-white {
