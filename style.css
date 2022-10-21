@@ -314,6 +314,28 @@ a:hover {
     height: 1.5em;
 }
 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
@@ -324,9 +346,9 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
     float: right;
     z-index: 1;
+    margin: auto;
 }
 
 .nav > li {
